@@ -1,0 +1,4 @@
+*.class
+target/
+node_modules/
+lib/mysql-connector-j-9.5.0/
