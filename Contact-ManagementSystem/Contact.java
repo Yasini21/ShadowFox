@@ -1,8 +1,8 @@
 class Contact {
     String name;
     String email;
-    int phoneNo;
-    Contact(String name,String email,int phoneNo){
+    String phoneNo;
+    Contact(String name,String email,String phoneNo){
         this.name=name;
         this.email=email;
         this.phoneNo=phoneNo;

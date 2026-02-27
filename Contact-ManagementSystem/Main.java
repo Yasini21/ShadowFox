@@ -42,7 +42,7 @@ public class Main {
         String email= scanner.nextLine();
 
         System.out.print("Enter PhoneNo: ");
-        int phoneNo = scanner.nextInt();
+        String phoneNo = scanner.nextLine();
 
         contacts.add(new Contact(name, email, phoneNo));
     }
@@ -67,7 +67,7 @@ public class Main {
             System.out.println("Enter the email to update: ");
             contacts.get(id).email=scanner.nextLine();
             System.out.println("Enter the phone to update: ");
-            contacts.get(id).phoneNo=scanner.nextInt();
+            contacts.get(id).phoneNo=scanner.nextLine();
             System.out.println("Contact updated successfully!");
 
         }
